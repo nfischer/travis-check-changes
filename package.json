@@ -1,0 +1,20 @@
+{
+  "name": "travis-check-changes",
+  "version": "0.1.0",
+  "description": "Make sure that no files were changed after travis finishes running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "travis-check-changes.sh": "bin/travis-check-changes.sh"
+  },
+  "keywords": [
+    "travis",
+    "CI",
+    "changes",
+    "after"
+  ],
+  "author": "Nate Fischer",
+  "license": "MIT"
+}
