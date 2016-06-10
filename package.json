@@ -4,10 +4,13 @@
   "description": "Make sure that no files were changed after travis finishes running",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:major": "release major",
+    "release:minor": "release minor",
+    "release:patch": "release patch"
   },
   "bin": {
-    "travis-check-changes": "bin/travis-check-changes.js"
+    "travis-check-changes": "travis-check-changes.js"
   },
   "keywords": [
     "travis",
@@ -19,5 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "shelljs": "^0.7.0"
+  },
+  "devDependencies": {
+    "shelljs-release": "^0.1.4"
   }
 }

@@ -8,7 +8,7 @@ if (args.length)
 else
   msg = 'Some files have changed';
 
-var ret = shell.exec('git diff --quiet 2>/dev/null');
+var ret = shell.exec('git diff --quiet', {silent: true});
 if (ret.code) {
   shell.echo(msg);
   shell.exit(ret.code);
