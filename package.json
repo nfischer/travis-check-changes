@@ -1,6 +1,6 @@
 {
   "name": "travis-check-changes",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Make sure that no files were changed after travis finishes running",
   "main": "index.js",
   "scripts": {
