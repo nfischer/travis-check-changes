@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release:major": "release major",
-    "release:minor": "release minor",
-    "release:patch": "release patch"
+    "release:major": "shelljs-release major",
+    "release:minor": "shelljs-release minor",
+    "release:patch": "shelljs-release patch"
   },
   "bin": {
     "travis-check-changes": "travis-check-changes.js"
