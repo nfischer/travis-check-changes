@@ -12,18 +12,25 @@
   "bin": {
     "travis-check-changes": "travis-check-changes.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfischer/travis-check-changes"
+  },
   "keywords": [
     "travis",
     "CI",
     "changes",
     "after"
   ],
-  "author": "Nate Fischer",
+  "author": "Nate Fischer <ntfschr@gmail.com> (https://github.com/nfischer)",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "^0.7.0"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
-    "shelljs-release": "^0.1.4"
+    "shelljs-release": "^0.5.1"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
